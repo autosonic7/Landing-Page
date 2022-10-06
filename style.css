@@ -2,8 +2,10 @@
     display: flex;
     justify-content:space-between;
     background-color:navy;
-    /* margin:0;
-    padding:0; */
+   
+     height: 100%;
+    width: 100%;  
+    font-weight: bold;
 }
 
 .container
@@ -12,6 +14,7 @@
     display: flex;
     justify-content: center;
     gap: 52px;
+    
 }
 
 .info {
@@ -20,11 +23,14 @@
 
 .title
 {
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bolder;
     display:flex;
      margin-bottom: 32px;
      justify-content: center;
-     width: 100px;
-     height: 100px;
+     color:blueviolet;
+     
 }
 
 ul 
@@ -44,7 +50,8 @@ a{
 }
 
 p{
-    font-size:24px;
+    display:flex;
+
 }
 
 .footer {
@@ -57,6 +64,21 @@ p{
   }
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    
+  }
+
+  .quote{
+    display:flex;
+    font-weight:bold ;
+    font-style: italic;
+    background-color: aqua;
+    color:cornflowerblue;
+  }
+
+  body{
+   font-family:helvetica,'times new roman',sans-serif;
+    background-image: url('wp1894643-my-hero-academia-wallpapers.jpg');
+    margin:0;
   }
